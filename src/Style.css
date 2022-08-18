@@ -1,0 +1,44 @@
+h1 {font-size:2vw;
+    text-align: center;}
+
+p {font-family: "Lucida Handwriting", cursive;
+   text-align: center;}
+
+p1 {font-family: "Lucida Handwriting", cursive;
+   text-align: left;}
+
+table, th, td {
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+
+th, td {
+  background-color: #96D4D4;
+  text-align: center;
+  padding: 1px;
+  font-family: "Lucida Handwriting", cursive;
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 30%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  display: flex;
+}
+
+img {
+  border: 5px solid #555;
+}
+
+body {
+  background-image: url('carpet.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
